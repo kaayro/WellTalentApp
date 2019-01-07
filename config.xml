@@ -21,7 +21,6 @@
 		
     <platform name="android" />
 
-    <gap:plugin name="cordova-plugin-admobpro" source="npm" />
     <plugin name="cordova-plugin-whitelist" source="npm" />
 
     <allow-navigation href="http://*/*" />
