@@ -17,6 +17,17 @@
         WellTalent
     </author>
     
+    <icon src="img/icon.png" />
+		
     <platform name="android" />
+
+    <gap:plugin name="cordova-plugin-admobpro" source="npm" />
+    <plugin name="cordova-plugin-whitelist" source="npm" />
+
+    <allow-navigation href="http://*/*" />
+    <allow-navigation href="https://*/*" />
+    <allow-navigation href="data:*" />
+
+    <access origin="*" />
 
 </widget>
