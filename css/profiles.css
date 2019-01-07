@@ -1,0 +1,12 @@
+#profiles .image{background-size:cover;height:70%;}
+#profiles .data{margin-top:-80px;padding:0;}
+#profiles .data .buttons{text-align:center;}
+#profiles .data .buttons button{background-color:#333;color:#fff;border:none;padding:15px 45px;font-size:15px;font-weight:bold;text-transform:uppercase;margin-top:-22px;box-shadow:0 5px 10px #ccc;}
+#profiles .data .buttons button:first-child{border-radius:30px 0 0 30px;background-color:#6541c1;}
+#profiles .data .buttons button:last-child{border-radius:0 30px 30px 0;background-color:#d43396;}
+#profiles .data .name{text-align:center;font-weight:normal;font-size:30px;margin:20px 0 5px 0;}
+#profiles .data h5{text-align:center;font-weight:normal;margin:5px 0 20px 0;color:#ccc;font-size:20px;}
+#profiles .data p{text-align:center;margin:30px;}
+#profiles .data .social{padding:15px;text-align:center;}
+#profiles .data .social a{padding:15px;box-shadow:0 0 5px #ccc;}
+#profiles .data hr{padding:8px;border:solid #ccc;border-width:1px 0 0 0;margin:15px;}

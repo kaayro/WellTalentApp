@@ -1,0 +1,7 @@
+.page#login{margin:0;padding:0;background-image:url(../img/fondoDegradado.png);background-size:100%;background-repeat:repeat-y;justify-content:center;}
+.page#login section{text-align:center;flex:none;}
+.page#login section .logo{width:150px;opacity:1;}
+.page#login section .form-box{margin:20px 10px;text-align:center;}
+.page#login section .form-box input{margin:2px 0;padding:10px 20px;border-radius:25px;border:none;background-color:rgba(33,33,33,0.4);color:#fff;}
+.page#login section .form-box button{margin:10px 0;padding:10px 85px;border:none;border-radius:30px;background-color:rgba(256,256,256,1);}
+.page#login section .form-box a{color:#fff;text-decoration:underline;}

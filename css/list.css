@@ -1,0 +1,7 @@
+#list .profile-summary{display:flex;border-bottom:solid 1px #999;padding:10px 0;}
+#list .profile-summary .image{width:50px;height:50px;background-size:cover;border-radius:50%;}
+#list .profile-summary .info{flex:1;padding:10px;}
+#list .profile-summary .info .name{font-size:0.8em;margin:0;padding:0;}
+#list .profile-summary .info .profile{font-size:0.6em;margin:0;padding:0;color:#999;}
+#list .profile-summary .info .date{font-size:0.6em;margin:0;padding:0;font-weight:100;}
+#list .profile-summary .info .status{font-size:0.6em;margin:0;padding:0;font-weight:100;}
