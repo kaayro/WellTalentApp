@@ -17,6 +17,7 @@
         WellTalent
     </author>
     
+    <preference name="android-minSdkVersion" value="26" />  
     <preference name="orientation" value="portrait" />
     <preference name="fullscreen" value="false" />
     <preference name="android-build-tool" value="gradle" />
