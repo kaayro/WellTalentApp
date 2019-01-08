@@ -17,6 +17,10 @@
         WellTalent
     </author>
     
+    <preference name="orientation" value="portrait" />
+    <preference name="fullscreen" value="false" />
+    <preference name="android-build-tool" value="gradle" />
+    
     <icon src="img/icon.png" />
 		
     <platform name="android" />
