@@ -5,3 +5,5 @@
 #list .profile-summary .info .profile{font-size:0.6em;margin:0;padding:0;color:#999;}
 #list .profile-summary .info .date{font-size:0.6em;margin:0;padding:0;font-weight:100;}
 #list .profile-summary .info .status{font-size:0.6em;margin:0;padding:0;font-weight:100;}
+#list .profile-summary .actions button{background-color:#fff;padding:10px;border:solid 1px #999;border-radius:5px;}
+#list .profile-summary .actions button.selected{color:6541c1;border-color:6541c1;}

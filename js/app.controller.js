@@ -2,6 +2,10 @@ app.controller = {
     tap: function(){
         document.querySelector('#login button').addEventListener("click",app.controller.loginToProfiles,false);
         document.querySelector("#nextTalent").addEventListener("click",app.controller.nextTalent,false);
+        
+        var likeBtns = document.querySelectorAll(".actions button.like");
+        for(i = 0;i <= likeBtns.length;i++)
+            likeBtns[i].addEventListener("click",app.controller.favoriteProfile,false);
     },
     loginToProfiles: function(){
         document.querySelector('#loading').classList.remove("hidden");
@@ -42,5 +46,8 @@ app.controller = {
             window.location.href = "#profiles";
             document.querySelector('#loading').classList.add("hidden");
         },1000);
+    },
+    favoriteProfile: function(e){
+        e.currentTarget.classList.toggle("selected");
     }
 };
