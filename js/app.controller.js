@@ -4,8 +4,10 @@ app.controller = {
         document.querySelector("#nextTalent").addEventListener("click",app.controller.nextTalent,false);
         
         var likeBtns = document.querySelectorAll(".actions button.like");
-        for(i = 0;i <= likeBtns.length;i++)
+        for(i = 0;i < likeBtns.length;i++)
             likeBtns[i].addEventListener("click",app.controller.favoriteProfile,false);
+        
+        document.getElementById("btnMoreOptions").addEventListener("click",app.controller.toggleFilterOptions);
     },
     loginToProfiles: function(){
         document.querySelector('#loading').classList.remove("hidden");
@@ -34,7 +36,6 @@ app.controller = {
         conn.getTalentList(app.talent);
     },
     setTalentList: function(msg,data){
-        console.log(msg);
         msg = JSON.parse(msg);
         var img = document.querySelector("#profiles .image");
         app.talent = msg.id;
@@ -49,5 +50,19 @@ app.controller = {
     },
     favoriteProfile: function(e){
         e.currentTarget.classList.toggle("selected");
+    },
+    toggleFilterOptions: function(e){
+        let obj = e.currentTarget;
+        let t = obj.innerHTML;
+        let icon = '<i class="fas fa-fire-alt"></i> ';
+        let t1 = "More options";
+        let t2 = "Less options";
+        if(t == icon+t1){
+            document.getElementById("moreOptions").style.display = "block";
+            obj.innerHTML = icon+t2;
+        }else{
+            document.getElementById("moreOptions").style.display = "none";
+            obj.innerHTML = icon+t1;
+        }
     }
 };
