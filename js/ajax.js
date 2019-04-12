@@ -1,7 +1,7 @@
 var conn = {
     key: '29c329efb1ab8c6e50162227b45feff4aglff49fca963bc9db7d8724f2886806d0b',
-    srv: 'https://getwelltalent.com/Server/api.connect.php?key=',
->>>>>>> 8940a345550b38a46aa231da7492f142ea5a9ec2
+    //srv: 'https://getwelltalent.com/Server/api.connect.php?key=',
+    srv: '../Server/api.connect.php?key=',
     send: function(data,success){
         var xhttp = new XMLHttpRequest();
         xhttp.onreadystatechange = function(){
